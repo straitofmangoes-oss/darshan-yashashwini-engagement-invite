@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type TouchEvent, type WheelEvent } from "react";
+const BASE_PATH = "/darshan-yashashwini-engagement-invite";
 
 /* =========================================================
    EVENT DATA
@@ -207,7 +208,7 @@ export default function Home() {
 
       <audio
         ref={audioRef}
-        src="/music/engagement-song.mp3"
+        src={`${BASE_PATH}/music/engagement-song.mp3`}
         loop
         preload="auto"
         aria-hidden="true"
@@ -574,7 +575,7 @@ export default function Home() {
           <div className="couple-placeholder">
 
             <img
-              src="/couple.jpg"
+              src={`${BASE_PATH}/couple.jpg`}
               alt="Darshan and Yashashwini"
               className="couple-photo"
             />
@@ -875,7 +876,7 @@ export default function Home() {
         <div className="venue-background">
 
           <img
-            src="/venue.jpg"
+            src={`${BASE_PATH}/venue.jpg`}
             alt=""
             className="venue-photo"
             aria-hidden="true"
@@ -1000,27 +1001,27 @@ export default function Home() {
         <div className="gallery-grid">
 
           <div className="gallery-card gallery-1">
-            <img src="/gallery/gallery-1.png" alt="Darshan and Yashashwini memory 1" loading="lazy" />
+            <img src={`${BASE_PATH}/gallery/gallery-1.png`} alt="Darshan and Yashashwini memory 1" loading="lazy" />
           </div>
 
           <div className="gallery-card gallery-2">
-            <img src="/gallery/gallery-2.png" alt="Darshan and Yashashwini memory 2" loading="lazy" />
+            <img src={`${BASE_PATH}/gallery/gallery-2.PNG`} alt="Darshan and Yashashwini memory 2" loading="lazy" />
           </div>
 
           <div className="gallery-card gallery-3">
-            <img src="/gallery/gallery-3.png" alt="Darshan and Yashashwini memory 3" loading="lazy" />
+            <img src={`${BASE_PATH}/gallery/gallery-3.png`} alt="Darshan and Yashashwini memory 3" loading="lazy" />
           </div>
 
           <div className="gallery-card gallery-4">
-            <img src="/gallery/gallery-4.png" alt="Darshan and Yashashwini memory 4" loading="lazy" />
+            <img src={`${BASE_PATH}/gallery/gallery-4.png`} alt="Darshan and Yashashwini memory 4" loading="lazy" />
           </div>
 
           <div className="gallery-card gallery-5">
-            <img src="/gallery/gallery-5.png" alt="Darshan and Yashashwini memory 5" loading="lazy" />
+            <img src={`${BASE_PATH}/gallery/gallery-5.png`} alt="Darshan and Yashashwini memory 5" loading="lazy" />
           </div>
 
           <div className="gallery-card gallery-6">
-            <img src="/gallery/gallery-6.png" alt="Darshan and Yashashwini memory 6" loading="lazy" />
+            <img src={`${BASE_PATH}/gallery/gallery-6.png`} alt="Darshan and Yashashwini memory 6" loading="lazy" />
           </div>
 
         </div>
