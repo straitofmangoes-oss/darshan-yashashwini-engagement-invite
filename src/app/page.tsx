@@ -800,6 +800,8 @@ export default function Home() {
             <p>
               Tejaswini K
               <br />
+              Dr. Manjesh A
+              <br />
               Pruthvi
               <br />
               Karan K Gowda
